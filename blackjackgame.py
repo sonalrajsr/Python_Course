@@ -54,11 +54,11 @@ def blackjack_decision_maker():     #This functio will print the final winner
         print("Computer Wins")
     elif (sum(human_cards) > sum(computer_cards)) and (sum(human_cards) <= 21) and (sum(computer_cards) <= 21):
         #card_number_printer()
-        print("Computer Wins")
-    elif sum(human_cards) >= 21 >= sum(computer_cards):
+        print("You won")
+    elif sum(human_cards) > 21 > sum(computer_cards):
         #card_number_printer()
         print("Computer Wins")
-    elif sum(computer_cards) >= 21 >= sum(human_cards):
+    elif sum(computer_cards) > 21 > sum(human_cards):
         #card_number_printer()
         print("You Wins")
     elif sum(computer_cards) == sum(human_cards):
